@@ -29,9 +29,9 @@ const CV = () => {
 
   const education = [
     {
-      period: '2014 — 2018',
-      degree: 'B.Sc. in Computer Science',
-      institution: 'University of Technology',
+      period: '2021 — 2025',
+      degree: 'B.Sc. in Networking and Communications Systems',
+      institution: 'Adventist University of Central Africa (AUCA)',
       description: 'Graduated with honors, focus on web technologies and software engineering.',
     },
   ];
@@ -45,6 +45,7 @@ const CV = () => {
     // OR use this if PDF is in assets:
     // link.href = '/src/assets/NILBecker CV.pdf';
     link.download = 'Becker_Niringiyimana_CV.pdf';
+    link.download ='DOBA0.pdf';
     
     document.body.appendChild(link);
     link.click();
